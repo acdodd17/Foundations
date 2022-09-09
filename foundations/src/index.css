@@ -1,0 +1,18 @@
+:root {
+  --primary-color: black;
+  --secondary-color: rgb(241, 241, 241);
+  --type-font: "Xanh Mono";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color:rgb(241, 241, 241);
+  font-family: var(--type-font);
+  perspective: 1000px;
+}
